@@ -11,18 +11,24 @@
   min-height: 707px;
 }
 
-.splash-cta {
-  display: inline-block;
-  padding: 300px 0 0 100px;
-  color: #FFF;
-}
-
-.splash-jeep {
-  display: inline-block;
-  float: right;
+.splash-content {
+  position: relative;
+  min-height: 707px;
   overflow: hidden;
 }
 
-.splash-jeep img {
-  margin: 210px -130px 0 0;
+.splash-cta {
+  position: relative;
+  display: inline-block;
+  padding: 250px 0 0 100px;
+  color: #FFF;
+  z-index: 1;
+}
+
+.splash-jeep {
+  position: absolute;
+  width: 640px;
+  height: 432px;
+  top: 260px;
+  right: -130px;
 }
