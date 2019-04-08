@@ -1,0 +1,3 @@
+### Notes
+
+* realfavicongenerator.net
